@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Probando, probando, probando');
+  res.send('Probando para el vídeo de youtube Raúl Ruiz');
 });
 
 var server = app.listen(3000, function () {
